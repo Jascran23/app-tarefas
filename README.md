@@ -1,49 +1,86 @@
 # app-tarefas
- App de Tarefas - exercício desenvolvido pelo curso do DevStart.
 
 ![](./screenshot.png)
 
+App de Tarefas - exercício desenvolvido durante o curso Dev Start com foco em Programação Orientada a Objetos (POO).
+
 ## Sobre o Projeto
 
-Projeto com a estilização simples.
+Este projeto consiste em um App de Afazeres (To-Do List) desenvolvido com HTML, CSS e JavaScript.
 
-Intuito do projeto é desenvolver o conhecimento com POO - Programação Orientada a Objetos.
+A estilização foi mantida simples, pois o principal objetivo do exercício é praticar conceitos de Programação Orientada a Objetos (POO) e a implementação de métodos de instância responsáveis por manipular os dados da aplicação.
 
-Precisa implementar sete métodos de instância para que o aplicativo funcione. Assim que você tiver os dois primeiros métodos implementados, poderá testá-los na guia de visualização.
+O aplicativo permite adicionar tarefas, visualizar todos os afazeres e filtrá-los por categoria (trabalho ou pessoal).
 
-1. obterTudo() Este método deve retornar todos os afazeres.
+Para que o aplicativo funcione corretamente, é necessário implementar sete métodos de instância.
 
-2. obterContagem() Este método deve retornar um número representando a quantidade total de afazeres.
+## Métodos Implementados
 
-➡️ Depois de implementar esses dois métodos, você poderá ver os dois exemplos de afazeres renderizados na guia de visualização. Tente inserir afazeres usando o formulário. Ele falhará até que você implemente o próximo método.
+### 1. obterTudo()
 
-3. adicionar(titulo, categoria) Este método recebe duas strings: titulo e categoria. Ele deve adicionar um novo objeto à matriz de objetos existente, seguindo o mesmo formato.
+Este método deve retornar todos os afazeres cadastrados.
 
-➡️ Uma vez implementado este método, você poderá adicionar afazeres usando o formulário na guia de visualização.
+### 2. obterContagem()
 
-4. obterTrabalho() Este método deve retornar uma matriz de objetos contendo apenas os afazeres que possuem a categoria trabalho . O formato dos objetos dentro da matriz deve permanecer o mesmo.
+Este método deve retornar um número representando a quantidade total de afazeres.
 
-5. obterContagemDeTrabalho() Este método deve retornar um número representando quantos afazeres possuem a categoria trabalho . Tente manter seu código DRY (Don't Repeat Yourself), isto é, não seja repetitivo.
+➡️ Depois de implementar esses dois métodos, será possível visualizar os exemplos de afazeres renderizados na interface.
 
-➡️ Agora você poderá filtrar afazeres por categoria de trabalho na guia de visualização.
+### 3. adicionar(titulo, categoria)
 
-6. obterPessoal() Este método deve retornar uma matriz de objetos contendo apenas os afazeres que possuem a categoria pessoal. O formato dos objetos dentro da matriz deve permanecer o mesmo.
+Este método recebe duas strings:
 
-7. obterContagemPessoal() Este método deve retornar um número representando quantos afazeres possuem a categoria pessoal. Tente manter seu código DRY (não seja repetitivo).
+titulo
+
+categoria
+
+Ele deve adicionar um novo objeto de afazer à lista existente, mantendo o mesmo formato dos objetos já utilizados.
+
+➡️ Após implementar este método, será possível adicionar novos afazeres através do formulário.
+
+### 4. obterTrabalho()
+
+Retorna um array contendo apenas os afazeres da categoria trabalho.
+
+### 5. obterContagemDeTrabalho()
+
+Retorna a quantidade de afazeres que pertencem à categoria trabalho.
+
+Dica: tente manter o código DRY (Don't Repeat Yourself) para evitar repetição.
+
+➡️ Depois disso, será possível filtrar tarefas da categoria trabalho na interface.
+
+### 6. obterPessoal()
+
+Retorna um array contendo apenas os afazeres da categoria pessoal.
+
+### 7. obterContagemPessoal()
+
+Retorna a quantidade de afazeres da categoria pessoal.
+
+Novamente, tente manter o código DRY (Don't Repeat Yourself).
 
 ## Funcionalidades
 
-Botão 
+➕ Adicionar novos afazeres
+📋 Visualizar todos os afazeres cadastrados
+🔎 Filtrar tarefas por categoria
+💼 Filtrar tarefas da categoria trabalho
+🏠 Filtrar tarefas da categoria pessoal
+🔢 Contagem total de tarefas
+📊 Contagem de tarefas por categoria
 
-## Tecnologias Utilizadas
+Tecnologias Utilizadas
 
 🌐 HTML5
 
-🎨 CSS3 (Grid Layout)
+🎨 CSS3
 
 ⚡ JavaScript (ES6+)
 
+🧠 Programação Orientada a Objetos (POO)
+
 ### Links
 
-- Solution Github: [Repository](https://github.com/Jascran23/devcl-calculator)
-- Live Site: [Solution Page](https://jascran23.github.io/devcl-calculator/)
+- Solution Github: [Repository](https://github.com/Jascran23/app-tarefas)
+- Live Site: [Solution Page](https://jascran23.github.io/app-tarefas/)
